@@ -5,7 +5,7 @@ body {
     background-color: #7FC7D9; /* Light green background #C1F2B0;*/
 }
 
-/*.cloud1, .c2, .c3, .c4 {
+/*.cloud1, .c2{
     position: absolute;
     top: 0;
     animation: floatClouds linear infinite 5s;
@@ -31,11 +31,6 @@ body {
   margin-left: 100PX;
 }
 
-.c3, .c4 {
-    position: absolute;
-    bottom: 50px; /* Adjust the top value as needed */
-    animation: floatClouds linear infinite 5s;
-}
 .middle-container{
   margin-top: -200;
 
