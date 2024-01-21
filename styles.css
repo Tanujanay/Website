@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #7FC7D9; /* Light green background #C1F2B0;*/
+}
+
+/*.cloud1, .c2, .c3, .c4 {
+    position: absolute;
+    top: 0;
+    animation: floatClouds linear infinite 5s;
+
+}*/
+/* Add styles for the new cloud divs */
+
+.cloud1, .c2{
+    position: absolute;
+    top: 50px; /* Adjust the top value as needed */
+    animation: floatClouds linear infinite 5s;
+}
+
+.cloud1 {
+    left: 100px; /* Adjust the left value as needed */
+}
+
+.c2 {
+    right: 100px; /* Adjust the right value as needed */
+}
+.profile{
+  margin-top: 90;
+  margin-left: 100PX;
+}
+
+.c3, .c4 {
+    position: absolute;
+    bottom: 50px; /* Adjust the top value as needed */
+    animation: floatClouds linear infinite 5s;
+}
+.middle-container{
+  margin-top: -200;
+
+}
+
+@keyframes floatClouds {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
+
+.mountain {
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    color: #2F4F4F; /* Dark slate gray text color */
+    margin-top: 50px;
+    font-size: 1.2em; /* Adjust the font size as needed */
+    font-family: 'Chakra Petch', sans-serif;
+}
+ /* Adjusted margin for text section */
+
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 3em;
+    margin-bottom: 10px; /* Adjusted margin for h1 */
+    position: static;
+}
+
+p {
+  text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+    position: static;/* Adjusted margin for p */
+}
+.profile
+{
+  width:200px;
+  height:200px;
+  text-align: left; /* Center-align the content within the div */
+  display: block; /* Make the image a block element */
+  margin: 0 auto; /* Center the image horizontally using margin */
+  margin-bottom: 30px;
+  color: #FBF9F1;
+}
+.Hello
+{
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: 'Chakra Petch', sans-serif;
+  p{
+    font-size: 21px;
+  }
+}
+.skills
+{
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.skill1
+{
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.skill2
+{
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.contact-me
+{
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.web{
+  margin-left: 20px;
+  }
+  .java{
+    margin-left: 20px;
+    }
